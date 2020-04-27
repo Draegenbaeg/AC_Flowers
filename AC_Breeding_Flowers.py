@@ -75,7 +75,7 @@ def flower_breeding():
     input("\nWhat two flowers would you like to breed?"
           "\nPlease enter the breed, color, and if it's perfect (if applicable)."
           "\nHit enter to start:")
-    # Asks for a the golden watering can special case
+    # Asks for a golden watering can special case
     user_can = input("Would you like to use a golden watering can instead of a flower? (yes or no): ")
     while user_can.lower() not in ("yes", "no"):
         user_can = input("Please input a valid response (yes or no) : ")
